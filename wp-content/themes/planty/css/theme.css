@@ -9,11 +9,6 @@ body {
   margin: auto;
 }
 
-footer {
-  max-width: 1440px;
-  margin: auto;
-}
-
 /* Couleur lien Admin */
 a {
   color: black;
@@ -21,4 +16,209 @@ a {
 
 a:hover {
   color: black;
+}
+
+/* /////////////////////////////////////////
+/            Formulaire global             /
+///////////////////////////////////////// */ 
+/* Taille du libellé des champs */
+.wpcf7-form p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/*  Dimensions de l'emplacement nom */
+.wpcf7-text {
+  border: 0px solid !important;
+  width: 383px !important;
+  height: 71px !important;
+  border-radius: 7px !important;
+  resize: none !important;
+}
+
+/*  Dimensions de l'emplacement e-mail */
+.wpcf7-email {    
+  border: 0px solid !important;
+  width: 383px !important;
+  height: 71px !important;
+  border-radius: 7px !important;
+  resize: none !important;
+}
+
+/*  Dimensions de l'emplacement message */
+.wpcf7-textarea {   
+  border: 0px solid !important;
+  width: 383px !important;
+  height: 237px !important;
+  border-radius: 7px !important;
+  resize: none !important;
+}
+
+/* Couleur des emplacements de saisie */
+.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 textarea {
+  background:#ffffff;
+  color: black;  
+}
+
+/* Couleur du bouton du formulaire */
+.wpcf7-form input[type="submit"] {
+  display: block;
+  margin: auto;
+  background-color: #E0B9B4;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 198px;
+  height: 55px;   
+}
+
+.wpcf7-form input[type="submit"]:hover {
+  background-color: #C02E44;
+}
+
+/* /////////////////////////////////////////
+/            Formulaire de commande        /
+///////////////////////////////////////// */ 
+/* #informations {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 50% !important;
+  font-size: 20px !important;
+  font-weight: 400;
+  color: white !important;
+  padding-left: 200px !important;
+  border-right: 2px solid !important;
+}
+
+#informations H3 {
+  font-size: 30px !important;
+  font-weight: 700;
+  color: white !important;
+  padding-right: 120px !important;
+}
+
+
+#livraison {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 50% !important;
+  font-size: 20px !important;
+  font-weight: 400;
+  color: white !important;
+  padding-right: 200px !important;
+  margin-bottom: 30px !important;
+}
+
+#livraison H3 {
+  font-size: 30px !important;
+  font-weight: 700;
+  color: white !important;
+  padding-right: 240px !important;
+} */
+
+/* /////////////////////////////////////////
+/       Infos commandes et Livraison       /
+///////////////////////////////////////// */
+
+/* Disposition du bloc de commande */
+.commander {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Disposition du bloc des Infos et livraison */
+.informations-livraison {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+
+  /* display: flex !important;
+  flex-flow: row wrap !important;
+  justify-content: stretch !important;
+  width: 80%; */
+}
+
+/* Habillage du titre H2 COMMANDER*/
+.commander H2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 38px !important;
+  font-weight: 800;
+  width: 80%;
+  color: white !important;
+  padding: 50px 0 50px 0;
+}
+
+/* Habillage du titre H3 Votre commande*/
+.commander H3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 60%;
+  font-size: 30px !important;
+  font-weight: 700;
+  color: white !important;
+  padding: 25px 0 25px;
+  border-top: 1px solid;
+}
+
+/* Mise en place des images et positionnement des éléments de la commande*/
+.fruits {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  color: white !important;
+  padding: 0 0 30px;
+  border-bottom: 1px solid;
+}
+
+.fruits img {
+  width: 192px;
+  height: 128px;
+  margin-right: 20px;
+}
+
+/* Disposition du bloc Infos */
+.informations {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 35% !important;
+  color: white !important;
+  border-right: 1px solid !important;
+}
+
+/* Disposition du bloc Livraison */
+.livraison {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 35% !important;
+  color: white !important;
+  padding: 25px 0 25px;
+}
+
+/* Habillage du titre H3 */
+.informations-livraison H3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 80%;
+  font-size: 30px !important;
+  font-weight: 700;
+  color: white !important;
+}
+
+/* Habillage des paragraphes */
+.informations-livraison p {
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  color: white !important;
 }
