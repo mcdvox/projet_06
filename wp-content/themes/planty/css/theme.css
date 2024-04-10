@@ -3,3 +3,22 @@
 body * {
     font-family: 'Syne', sans-serif;
 }
+
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
