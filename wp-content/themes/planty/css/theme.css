@@ -3,22 +3,3 @@
 body * {
     font-family: 'Syne', sans-serif;
 }
-
-body {
-  max-width: 1440px;
-  margin: auto;
-}
-
-footer {
-  max-width: 1440px;
-  margin: auto;
-}
-
-/* Couleur lien Admin */
-a {
-  color: black;
-}
-
-a:hover {
-  color: black;
-}
