@@ -77,57 +77,32 @@ a:hover {
 }
 
 /* /////////////////////////////////////////
-/            Formulaire de commande        /
-///////////////////////////////////////// */ 
-/* #informations {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  width: 50% !important;
-  font-size: 20px !important;
-  font-weight: 400;
-  color: white !important;
-  padding-left: 200px !important;
-  border-right: 2px solid !important;
-}
-
-#informations H3 {
-  font-size: 30px !important;
-  font-weight: 700;
-  color: white !important;
-  padding-right: 120px !important;
-}
-
-
-#livraison {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  width: 50% !important;
-  font-size: 20px !important;
-  font-weight: 400;
-  color: white !important;
-  padding-right: 200px !important;
-  margin-bottom: 30px !important;
-}
-
-#livraison H3 {
-  font-size: 30px !important;
-  font-weight: 700;
-  color: white !important;
-  padding-right: 240px !important;
-} */
-
-/* /////////////////////////////////////////
 /       Infos commandes et Livraison       /
 ///////////////////////////////////////// */
 
-/* Disposition du bloc de commande */
-.commander {
+/* Positionnement des éléments de la commande*/
+.fruits {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 60%;
+  padding-left: 380px;
+}
+
+/* Positionnement des boutons des quantités*/
+.fruits .fraise, .pamplemousse, .framboise, .citron {
+  padding: 0 0 0 160px;
+}
+
+/* Mise en forme des boutons des quantités */
+.fruits input[type="number"] {
+  align-items: center;
+  text-align: center;
+  width: 39px;
+  height: 58px;
+  background-color: white !important;
+  color: black;
 }
 
 /* Disposition du bloc des Infos et livraison */
@@ -136,62 +111,17 @@ a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 25px;
-
-  /* display: flex !important;
-  flex-flow: row wrap !important;
-  justify-content: stretch !important;
-  width: 80%; */
-}
-
-/* Habillage du titre H2 COMMANDER*/
-.commander H2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-size: 38px !important;
-  font-weight: 800;
-  width: 80%;
-  color: white !important;
-  padding: 50px 0 50px 0;
-}
-
-/* Habillage du titre H3 Votre commande*/
-.commander H3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  width: 60%;
-  font-size: 30px !important;
-  font-weight: 700;
-  color: white !important;
-  padding: 25px 0 25px;
-  border-top: 1px solid;
-}
-
-/* Mise en place des images et positionnement des éléments de la commande*/
-.fruits {
-  display: flex !important;
-  flex-direction: row;
-  justify-content: center;
-  color: white !important;
-  padding: 0 0 30px;
-  border-bottom: 1px solid;
-}
-
-.fruits img {
-  width: 192px;
-  height: 128px;
-  margin-right: 20px;
+  padding: 0 80px;
 }
 
 /* Disposition du bloc Infos */
 .informations {
   display: flex !important;
   flex-direction: column !important;
-  align-items: center !important;
+  align-items: left !important;
   width: 35% !important;
   color: white !important;
+  padding-left: 20px;
   border-right: 1px solid !important;
 }
 
@@ -199,10 +129,10 @@ a:hover {
 .livraison {
   display: flex !important;
   flex-direction: column !important;
-  align-items: center !important;
+  align-items: left !important;
   width: 35% !important;
   color: white !important;
-  padding: 25px 0 25px;
+  padding: 25px 0 25px 40px;
 }
 
 /* Habillage du titre H3 */
