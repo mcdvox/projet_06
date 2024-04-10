@@ -9,16 +9,16 @@ body {
   margin: auto;
 }
 
-/* Header */
-header {
-  display: flex;
-  justify-content: space-between;
-  height: 80px;
+footer {
+  max-width: 1440px;
+  margin: auto;
 }
 
-/* footer */
-footer {
-  display: flex;
-  justify-content: space-between;
-  height: 80px;
+/* Couleur lien Admin */
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
 }
