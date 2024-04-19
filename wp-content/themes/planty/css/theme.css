@@ -112,7 +112,7 @@ a:hover {
 .informations {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: start;
   width: 35%;
   color: white;
   padding-left: 20px;
@@ -123,7 +123,7 @@ a:hover {
 .livraison {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: start;
   width: 35%;
   color: white;
   padding: 25px 0 25px 40px;
@@ -184,7 +184,7 @@ a:hover {
   .informations {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: start;
     width: 100%;
     color: white;
     padding-left: 0;
@@ -195,7 +195,7 @@ a:hover {
   .livraison {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: start;
     width: 100%;
     color: white;
     padding: 25px 0 25px 0;
@@ -213,6 +213,15 @@ a:hover {
   font-size: 15px;
   font-weight: 700;
   color: white;
+}
+
+/* Positionnement des éléments de la commande*/
+.fruits {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 0 25px 0;
 }
     
   /* Taille du libellé des champs */

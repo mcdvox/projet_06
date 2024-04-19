@@ -12,7 +12,7 @@ add_filter( 'wp_nav_menu_items', 'prefix_add_menu_item',10,2);
 // Ajout du lien Admin à la fin du menu
 function prefix_add_menu_item($items) {
     if (is_user_logged_in ()) {
-        $items .= '<li id="menu-item-412" class="menu-admin-class"><a href=' . admin_url() . '></strong>Admin</a></li>';
+        $items .= '<li id="menu-item" class="menu-admin-class"><a href=' . admin_url() . '></strong>Admin</a></li>';
     }
     return $items;
 }
